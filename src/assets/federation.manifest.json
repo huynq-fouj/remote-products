@@ -1,3 +1,4 @@
 {
-    "cart": "http://localhost:3002/remoteEntry.json"
+    // "cart": "http://localhost:3002/remoteEntry.json",
+    "shared-ui": "http://localhost:3003/remoteEntry.json"
 }
