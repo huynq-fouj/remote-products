@@ -1,5 +1,5 @@
 <div class="product-grid-container grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
-    @for (item of products; track $index) {
+    @for (item of products; track item.id) {
         <app-product-item [product]="item"></app-product-item>
     }
 </div>
